@@ -6,4 +6,6 @@ states_of_america = ["Delaware", "Pennsylvania", "New Jersey", "Georgia", "Conne
                      "North Dakota", "South Dakota", "Montana", "Washington", "Idaho", "Wyoming", "Utah", "Oklahoma",
                      "New Mexico", "Arizona", "Alaska", "Hawaii"]
 
-print(states_of_america)
+#print(len(states_of_america))
+num_of_states = len(states_of_america) #50
+print(states_of_america[num_of_states - 1])
